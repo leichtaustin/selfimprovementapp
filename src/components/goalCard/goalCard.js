@@ -5,7 +5,7 @@ export const GoalCard = (props) => {
 
 
     return (
-        <div className='goalCardContainer'>
+        <div className='goalCardContainer' aria-label='Goal Card'>
             <h3>Goal Name: {props.goal.name}</h3>
             <p>Target Value: {props.goal.targetValue}</p>
             <p>Current Value: {props.goal.currentValue}</p>
