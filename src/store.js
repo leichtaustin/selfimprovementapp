@@ -1,10 +1,10 @@
-// import { configureStore, combineReducers } from '@reduxjs/toolkit';
+import { configureStore, combineReducers } from '@reduxjs/toolkit';
 
-// export default configureStore({
-//     reducer: {
+export default configureStore({
+    reducer: {
         
-//     }
-// })
+    }
+})
 
 // const rootReducer = combineReducers({
 //     //add reducers here ex. user: userReducer

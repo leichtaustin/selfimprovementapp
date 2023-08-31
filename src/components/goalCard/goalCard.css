@@ -1,0 +1,12 @@
+.goalCardContainer {
+    border: solid black 2px;
+    border-radius: 10px;
+    margin: 1rem auto 1rem auto;
+    display: flex;
+    max-width: 90%;
+    background-color: hsla(178, 100%, 93%, 0.25);
+}
+
+.dataContainer {
+    margin: 0rem 1rem;
+}
