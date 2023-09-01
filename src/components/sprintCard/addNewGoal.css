@@ -1,0 +1,17 @@
+.addNewGoalContainer {
+    display: block;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: fit-content;
+    max-height: 75%;
+    background-color: white;
+    border: solid black 4px;
+    border-radius: 15px;
+    color: black;
+    text-align: left;
+    overflow-y: auto;
+    text-align: center;
+}
