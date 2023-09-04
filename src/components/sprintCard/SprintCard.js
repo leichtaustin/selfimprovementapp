@@ -9,6 +9,10 @@ export const SprintCard = (props) => {
 
     const goalsArr = useSelector(selectGoalsInCard);
 
+    const handleAddGoal = (e) => {
+        e.preventDefault();
+        document.getElementById('addNewGoalContainer').style.display = 'block';
+    }
 
     return (
         <div className='sprintCardContainer'>
@@ -18,8 +22,12 @@ export const SprintCard = (props) => {
                     <GoalCard goal = {goal} />
                 )
             })}
-            <button class="button-10" aria-label='Add New Goal'>Add New Goal</button>
-            <AddNewGoal/>
+            <button 
+                className="button-10" 
+                aria-label='Add New Goal' 
+                onClick={handleAddGoal}
+                >Add New Goal</button>
+            <AddNewGoal />
 
         </div>
     )
